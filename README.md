@@ -3,8 +3,15 @@
 Title: Mutation divergence over space in tumour expansion
 https://www.biorxiv.org/content/10.1101/2022.12.21.521509v1
 
-Mutation accumulation in tumour evolution is one major cause of intra-tumour heterogeneity (ITH), which often leads to drug resistance during treatment. Previous studies with multi-region sequencing have shown that mutation divergence among samples within the patient is common, and the importance of spatial sampling to obtain a complete picture in tumour measurements. However, quantitative comparisons of the relationship between mutation heterogeneity and tumour expansion modes, sampling distances as well as the sampling methods are still few. Here, we investigate how mutations diverge over space by varying the sampling distance and tumour expansion modes using individual based simulations. We measure ITH by the Jaccard index between samples and quantify how ITH increases with sampling distance, the pattern of which holds in various sampling methods and sizes. We also compare the inferred mutation rates based on the distributions of Variant Allele Frequencies (VAF) under different tumour expansion modes and sampling sizes. In exponentially fast expanding tumours, a mutation rate can always be inferred in any sampling size. However, the accuracy compared to the true value decreases when the sampling size decreases, where small sampling sizes result in a high estimate of the mutation rate. In addition, such an inference becomes unreliable when the tumour expansion is slower such as in surface growth.
+Mutation accumulation in tumour evolution is one major cause of intra-tumour heterogeneity (ITH), which often leads to drug resistance during treatment. Previous studies with multi-region sequencing have shown that mutation divergence among samples within the patient is common, and the importance of spatial sampling to obtain a complete picture in tumour measurements. However, quantitative comparisons of the relationship between mutation heterogeneity and tumour expansion modes, sampling distances as well as the sampling methods are still few. Here, we investigate how mutations diverge over space by varying the sampling distance and tumour expansion modes using individual based simulations. We measure ITH by the Jaccard index between samples and quantify how ITH increases with sampling distance, the pattern of which holds in various sampling methods and sizes. We also compare the inferred mutation rates based on the distributions of Variant Allele Frequencies (VAF) under different tumour expansion modes and sampling sizes. In exponentially fast expanding tumours, a mutation rate can always be inferred in any sampling size. However, the accuracy compared to the true value decreases when the sampling size decreases, where small sampling sizes result in a high estimate of the mutation rate. In addition, such an inference becomes unreliable when the tumour expansion is slower, such as in surface growth.
 
+Growth and mutation distribution in cancer models
+[Fig-2.pdf](https://github.com/SYSU-BioEvoLab/Spatial_Heterogeneity/files/11024550/Fig-2.pdf)
+
+
+The heterogeneity of tumour cells was calculated by Jaccard index of sampling points
+
+[Fig.S6.pdf](https://github.com/SYSU-BioEvoLab/Spatial_Heterogeneity/files/11024553/Fig.S6.pdf)
 
 
 Author contributions statement:
